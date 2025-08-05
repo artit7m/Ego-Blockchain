@@ -625,10 +625,10 @@ contract EGOC is Context, IERC20 {
     string private _symbol = "EGOC";
     uint8 private _decimals = 8;
     
-    uint256 public _taxFee = 2;
+    uint256 public _taxFee = 1;
     uint256 private _previousTaxFee = _taxFee;
     
-    uint256 public _liquidityFee = 3;
+    uint256 public _liquidityFee = 1;
     uint256 private _previousLiquidityFee = _liquidityFee;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
